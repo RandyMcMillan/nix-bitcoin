@@ -70,7 +70,7 @@ Features
 A [configuration preset](modules/presets/secure-node.nix) for setting up a secure node
 * All applications use Tor for outbound connections and support accepting inbound connections via onion services.
 
-**NixOS modules** ([modules](modules/modules.nix))
+**NixOS modules** ([modules](modules/README.md))
 
 * **Application services**
   * [bitcoind](https://github.com/bitcoin/bitcoin)
