@@ -46,6 +46,6 @@
 ├── [rtl.nix](rtl.nix)		  
 ├── [secrets](secrets)		  
 │   ├── [generate-secrets.nix](secrets/generate-secrets.nix)		  
-│   └── [secrets.nix](secrets/secrets.nix)		
+│   └── [secrets.nix](secrets/secrets.nix)		    
 ├── [security.nix](security.nix)	  
 └── [versioning.nix](versioning.nix)		  
