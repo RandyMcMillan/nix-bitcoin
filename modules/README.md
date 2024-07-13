@@ -29,8 +29,8 @@
 ├── [lndconnect.nix](lndconnect.nix)		
 ├── [mempool.nix](mempool.nix)		
 ├── [modules.nix](modules.nix)		
-├── [netns-isolation.nix	](netns-isolation.nix	)	
-├── [nix-bitcoin.nix	](nix-bitcoin.nix	)	
+├── [netns-isolation.nix](netns-isolation.nix)	
+├── [nix-bitcoin.nix](nix-bitcoin.nix)	
 ├── nodeinfo.nix		
 ├── obsolete-options.nix		
 ├── onion-addresses.nix		
