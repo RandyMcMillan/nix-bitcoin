@@ -24,19 +24,22 @@
 </p>
 <br/>
 
-nix-bitcoin is a collection of Nix packages and NixOS modules for easily installing **full-featured Bitcoin nodes** with an emphasis on **security**.
+**nix-bitcoin** is a collection of Nix packages and NixOS modules for easily installing **full-featured Bitcoin nodes** with an emphasis on **security**.
 
 Overview
 ---
-nix-bitcoin can be used for personal or merchant wallets, public infrastructure or
+
+**nix-bitcoin** can be used for personal or merchant wallets, public infrastructure or
 for Bitcoin application backends. In all cases, the aim is to provide security and
 privacy by default. However, while nix-bitcoin is used in production today, it is
 still considered experimental.
 
-nix-bitcoin nodes can be deployed on dedicated hardware, virtual machines or containers.
+
+**nix-bitcoin** nodes can be deployed on dedicated hardware, virtual machines or containers.
 The Nix packages and NixOS modules can be used independently and combined freely.
 
-nix-bitcoin is built on top of Nix and [NixOS](https://nixos.org/) which provide powerful abstractions to keep it highly customizable and
+
+**nix-bitcoin** is built on top of Nix and [NixOS](https://nixos.org/) which provide powerful abstractions to keep it highly customizable and
 maintainable. Testament to this are nix-bitcoin's robust security features and its potent test framework.  However,
 running nix-bitcoin does not require any previous experience with the Nix ecosystem.
 
@@ -63,14 +66,15 @@ top left corner of the documents.
 
 Features
 ---
+
 A [configuration preset](modules/presets/secure-node.nix) for setting up a secure node
 * All applications use Tor for outbound connections and support accepting inbound connections via onion services.
 
-NixOS modules ([src](modules/modules.nix))
-* Application services
+**NixOS modules** ([modules](modules/modules.nix))
+
+* **Application services**
   * [bitcoind](https://github.com/bitcoin/bitcoin)
-  * [clightning](https://github.com/ElementsProject/lightning) with support for announcing an onion service
-    and [database replication](docs/services.md#setup-clightning-database-replication).\
+  * [clightning](https://github.com/ElementsProject/lightning) with support for announcing an onion service and [database replication](docs/services.md#setup-clightning-database-replication).\
     Available plugins:
     * [clboss](https://github.com/ZmnSCPxj/clboss): automated C-Lightning Node Manager
     * [currencyrate](https://github.com/lightningd/plugins/tree/master/currencyrate): currency converter
@@ -95,7 +99,8 @@ NixOS modules ([src](modules/modules.nix))
   * [JoinMarket](https://github.com/joinmarket-org/joinmarket-clientserver)
     * [JoinMarket Orderbook Watcher](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/orderbook.md)
   * [bitcoin-core-hwi](https://github.com/bitcoin-core/HWI)
-* Helper
+
+* **Helper**
   * [netns-isolation](modules/netns-isolation.nix): isolates applications on the network-level via network namespaces
   * [nodeinfo](modules/nodeinfo.nix): script which prints info about the node's services
   * [backups](modules/backups.nix): duplicity backups of all your node's important files
