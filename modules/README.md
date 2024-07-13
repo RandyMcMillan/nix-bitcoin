@@ -8,29 +8,29 @@
 ├── [clightning-plugins](clightning-plugins)		
 │   ├── [clboss.nix](clightning-plugins/clboss.nix)		
 │   ├── [default.nix](clightning-plugins/default.nix)		
-│   ├── feeadjuster.nix		
-│   ├── trustedcoin.nix		
-│   └── zmq.nix		
-├── clightning-replication.nix		
-├── clightning-rest.nix		
-├── clightning.nix		
-├── deployment		
-│   ├── krops.nix		
-│   └── nixops.nix		
-├── electrs.nix		
-├── fulcrum.nix		
-├── hardware-wallets.nix		
-├── joinmarket-ob-watcher.nix		
-├── joinmarket.nix		
-├── lightning-loop.nix		
-├── lightning-pool.nix		
-├── liquid.nix		
-├── lnd.nix		
-├── lndconnect.nix		
-├── mempool.nix		
-├── modules.nix		
-├── netns-isolation.nix		
-├── nix-bitcoin.nix		
+│   ├── [feeadjuster.nix	](feeadjuster.nix	)	
+│   ├── [trustedcoin.nix	](trustedcoin.nix	)	
+│   └── [zmq.nix](zmq.nix)		
+├── [clightning-replication.nix](clightning-replication.nix)		
+├── [clightning-rest.nix	](clightning-rest.nix	)	
+├── [clightning.nix](clightning.nix)		
+├── [deployment](deployment)		
+│   ├── [krops.nix](krops.nix)		
+│   └── [nixops.nix](nixops.nix)		
+├── [electrs.nix](electrs.nix)		
+├── [fulcrum.nix](fulcrum.nix)		
+├── [hardware-wallets.nix](hardware-wallets.nix)		
+├── [joinmarket-ob-watcher.nix](joinmarket-ob-watcher.nix)		
+├── [joinmarket.nix](joinmarket.nix)		
+├── [lightning-loop.nix](lightning-loop.nix)		
+├── [lightning-pool.nix](lightning-pool.nix)		
+├── [liquid.nix](liquid.nix)		
+├── [lnd.nix](lnd.nix)		
+├── [lndconnect.nix](lndconnect.nix)		
+├── [mempool.nix](mempool.nix)		
+├── [modules.nix](modules.nix)		
+├── [netns-isolation.nix	](netns-isolation.nix	)	
+├── [nix-bitcoin.nix	](nix-bitcoin.nix	)	
 ├── nodeinfo.nix		
 ├── obsolete-options.nix		
 ├── onion-addresses.nix		
