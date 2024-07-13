@@ -1,5 +1,5 @@
 
-│ [modules](.)		
+│ [modules](.)		  
 ├── [backups.nix](backups.nix)		
 ├── [bitcoind-rpc-public-whitelist.nix](bitcoind-rpc-public-whitelist.nix)		
 ├── [bitcoind.nix](bitcoind.nix)	
